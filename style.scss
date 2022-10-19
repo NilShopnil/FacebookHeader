@@ -8,10 +8,8 @@ body{
     position: relative;
 }
 .container{
-    max-width: 1540px;
+    max-width: 1515px;
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -20,7 +18,7 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    background-color: #18191A;
+    background-color: #242526;
     &__content{
         height: 60px;
         display: flex;
@@ -34,8 +32,8 @@ body{
         gap: 5px;
     }
     &__fb-logo{
-        height: 50px;
-        width: 50px;
+        height: 52px;
+        width: 52px;
     }
     &__fb-logo:hover{
         cursor: pointer;
@@ -51,7 +49,7 @@ body{
     }
     &__search-icon{
         color: #B8BBBF;
-        font-size: 20px;
+        font-size: 19px;
         padding: 8px;
         border-radius: 50%;
     }
@@ -62,10 +60,13 @@ body{
     &__mid-content{
         display: flex;
         align-items: center;
+        margin-right: 123px;
+        gap: 6px;
+        transition: 0.4s;
     }
     &__icon{
-        font-size: 25px;
-        padding: 12px 38px;
+        font-size: 21px;
+        padding: 17px 44px;
         color: #B8BBBF;
         border-radius: 10px;
 
@@ -77,23 +78,22 @@ body{
     &__right-content{
         display: flex;
         align-items: center;
-        gap: 15px;
+        gap: 10px;
     }
     &__right-icon{
-        font-size: 16px;
+        font-size: 18px;
         color: #E7E9ED;
         border-radius: 50%;
-        background-color: #242526;
+        background-color: #3A3B3C;
         padding: 12px;
     }
     &__right-icon:hover{
         cursor: pointer;
-        background-color: #242526;
         background-color: #4E4F50;
     }
     &__profile-pic{
-        height: 45px;
-        width: 45px;
+        height: 40px;
+        width: 40px;
         border-radius: 50%;
     }
     &__profile-pic:hover{
